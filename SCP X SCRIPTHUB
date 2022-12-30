@@ -1,0 +1,104 @@
+--
+░██████╗░█████╗░██████╗░  ██╗░░██╗
+██╔════╝██╔══██╗██╔══██╗  ╚██╗██╔╝
+╚█████╗░██║░░╚═╝██████╔╝  ░╚███╔╝░
+░╚═══██╗██║░░██╗██╔═══╝░  ░██╔██╗░
+██████╔╝╚█████╔╝██║░░░░░  ██╔╝╚██╗
+╚═════╝░░╚════╝░╚═╝░░░░░  ╚═╝░░╚═╝
+--DO NOT EXECUTE ANY OF THIS CODE! USE THE LOADSTRING INSTEAD. IF YOU DONT KNOW HOW TO MAKE A LOADSTRING WATCH A YOUTUBE VIDEO.
+local b_a=Instance.new("ScreenGui")
+local c_a=Instance.new("Frame")local d_a=Instance.new("UICorner")
+local _aa=Instance.new("UIGradient")local aaa=Instance.new("ImageLabel")
+local baa=Instance.new("ImageButton")local caa=Instance.new("TextLabel")
+local daa=Instance.new("ImageButton")local _ba=Instance.new("TextButton")
+local aba=Instance.new("TextButton")local bba=Instance.new("TextButton")
+local cba=Instance.new("TextButton")local dba=Instance.new("TextButton")
+local _ca=Instance.new("ScrollingFrame")local aca=Instance.new("TextButton")
+local bca=Instance.new("UICorner")local cca=Instance.new("TextButton")
+local dca=Instance.new("UICorner")local _da=Instance.new("TextButton")
+local ada=Instance.new("UICorner")local bda=Instance.new("TextButton")
+local cda=Instance.new("UICorner")b_a.Name="MainGuis"
+b_a.Parent=game.Players.LocalPlayer:WaitForChild("PlayerGui")b_a.ZIndexBehavior=Enum.ZIndexBehavior.Sibling
+c_a.Name="Frame1"c_a.Parent=b_a
+c_a.BackgroundColor3=Color3.fromRGB(255,255,255)c_a.Position=UDim2.new(0.273430318,0,0.228846163,0)
+c_a.Size=UDim2.new(0,494,0,301)d_a.CornerRadius=UDim.new(0,10)d_a.Parent=c_a
+_aa.Color=ColorSequence.new{ColorSequenceKeypoint.new(0.00,Color3.fromRGB(21,21,21)),ColorSequenceKeypoint.new(1.00,Color3.fromRGB(11,11,11))}_aa.Name="ColorFrame1"_aa.Parent=c_a;aaa.Name="LOGO-SCPHUB"
+aaa.Parent=c_a;aaa.BackgroundColor3=Color3.fromRGB(255,255,255)
+aaa.BackgroundTransparency=33.000;aaa.Position=UDim2.new(0.0141700404,0,0.0232558139,0)
+aaa.Size=UDim2.new(0,46,0,44)aaa.Image="http://www.roblox.com/asset/?id=9633745971"
+baa.Name="ATTATCHER"baa.Parent=c_a
+baa.BackgroundColor3=Color3.fromRGB(255,255,255)baa.BackgroundTransparency=33.000
+baa.Position=UDim2.new(0.0141700404,0,0.847176075,0)baa.Size=UDim2.new(0,39,0,37)
+baa.Image="http://www.roblox.com/asset/?id=9087609419"caa.Name="Version."caa.Parent=c_a
+caa.BackgroundColor3=Color3.fromRGB(255,255,255)caa.BackgroundTransparency=3.000
+caa.Position=UDim2.new(0.277327925,0,0,0)caa.Size=UDim2.new(0,200,0,14)caa.Font=Enum.Font.Gotham
+caa.Text="SCP X version a0.01"caa.TextColor3=Color3.fromRGB(90,90,90)caa.TextSize=14.000
+daa.Parent=c_a;daa.BackgroundColor3=Color3.fromRGB(255,255,255)
+daa.BackgroundTransparency=3.000;daa.Position=UDim2.new(0.107287452,0,0.847176075,0)
+daa.Size=UDim2.new(0,40,0,37)daa.Image="http://www.roblox.com/asset/?id=9087232887"
+_ba.Name="InfiniteJump.rar"_ba.Parent=c_a;_ba.BackgroundColor3=Color3.fromRGB(16,16,16)
+_ba.BorderColor3=Color3.fromRGB(152,152,152)_ba.Position=UDim2.new(0.18825911,0,0.880398691,0)
+_ba.Size=UDim2.new(0,85,0,27)_ba.Font=Enum.Font.Gotham;_ba.Text="Infinite jump"
+_ba.TextColor3=Color3.fromRGB(124,124,124)_ba.TextSize=14.000;aba.Name="Fly.rar"aba.Parent=c_a
+aba.BackgroundColor3=Color3.fromRGB(16,16,16)aba.BorderColor3=Color3.fromRGB(152,152,152)
+aba.Position=UDim2.new(0.360323876,0,0.880398691,0)aba.Size=UDim2.new(0,43,0,27)aba.Font=Enum.Font.Gotham
+aba.Text="Fly"aba.TextColor3=Color3.fromRGB(124,124,124)
+aba.TextSize=14.000;bba.Name="Get?=users.rar"bba.Parent=c_a
+bba.BackgroundColor3=Color3.fromRGB(16,16,16)bba.BorderColor3=Color3.fromRGB(152,152,152)
+bba.Position=UDim2.new(0.447368443,0,0.880398691,0)bba.Size=UDim2.new(0,85,0,27)bba.Font=Enum.Font.Gotham
+bba.Text="Get Users"bba.TextColor3=Color3.fromRGB(124,124,124)
+bba.TextSize=14.000;cba.Name="DestroyParent.rar"cba.Parent=c_a
+cba.BackgroundColor3=Color3.fromRGB(16,16,16)cba.BorderColor3=Color3.fromRGB(152,152,152)
+cba.Position=UDim2.new(0.619433224,0,0.880398691,0)cba.Size=UDim2.new(0,85,0,27)cba.Font=Enum.Font.Gotham
+cba.Text="DestroyGui"cba.TextColor3=Color3.fromRGB(124,124,124)
+cba.TextSize=14.000;dba.Name="Connectr6.rar"dba.Parent=c_a
+dba.BackgroundColor3=Color3.fromRGB(16,16,16)dba.BorderColor3=Color3.fromRGB(152,152,152)
+dba.Position=UDim2.new(0.791498005,0,0.880398691,0)dba.Size=UDim2.new(0,85,0,27)dba.Font=Enum.Font.Gotham
+dba.Text="Connect"dba.TextColor3=Color3.fromRGB(124,124,124)
+dba.TextSize=14.000;_ca.Name="ALLHUB.EXE"_ca.Parent=c_a;_ca.Active=true
+_ca.BackgroundColor3=Color3.fromRGB(255,255,255)_ca.BackgroundTransparency=3.000
+_ca.Position=UDim2.new(0.125506073,0,0.0897009969,0)_ca.Size=UDim2.new(0,414,0,228)_ca.ScrollBarThickness=20
+aca.Name="Aimbot.scp"aca.Parent=_ca;aca.BackgroundColor3=Color3.fromRGB(50,50,50)
+aca.BackgroundTransparency=0.700;aca.Position=UDim2.new(0.683574855,0,0.0179039054,0)
+aca.Size=UDim2.new(0,102,0,27)aca.Font=Enum.Font.Gotham;aca.Text="Aimbot"
+aca.TextColor3=Color3.fromRGB(115,115,115)aca.TextSize=14.000;bca.Parent=aca;cca.Name="ESP.scp"cca.Parent=_ca
+cca.BackgroundColor3=Color3.fromRGB(50,50,50)cca.BackgroundTransparency=0.700
+cca.Position=UDim2.new(0.683574855,0,0.0743823051,0)cca.Size=UDim2.new(0,102,0,27)cca.Font=Enum.Font.Gotham
+cca.Text="Esp"cca.TextColor3=Color3.fromRGB(115,115,115)
+cca.TextSize=14.000;dca.Parent=cca;_da.Name="Dahoodlock.scp"_da.Parent=_ca
+_da.BackgroundColor3=Color3.fromRGB(50,50,50)_da.BackgroundTransparency=0.700
+_da.Position=UDim2.new(0.683574855,0,0.132521853,0)_da.Size=UDim2.new(0,102,0,27)_da.Font=Enum.Font.Gotham
+_da.Text="Pred Lock"_da.TextColor3=Color3.fromRGB(115,115,115)
+_da.TextSize=14.000;ada.Parent=_da;bda.Name="PLATFORM>SCP"bda.Parent=_ca
+bda.BackgroundColor3=Color3.fromRGB(50,50,50)bda.BackgroundTransparency=0.700
+bda.Position=UDim2.new(0.683574855,0,0.193983644,0)bda.Size=UDim2.new(0,102,0,27)bda.Font=Enum.Font.Gotham
+bda.Text="Float"bda.TextColor3=Color3.fromRGB(115,115,115)
+bda.TextSize=14.000;cda.Parent=bda
+local function dda()local c_b=Instance.new('LocalScript',c_a)
+local d_b=game:GetService("UserInputService")
+function dragify(_ab)dragToggle=nil;local aab=0;dragInput=nil;dragStart=nil;local bab=nil
+function updateInput(cab)
+local dab=cab.Position-dragStart
+local _bb=UDim2.new(startPos.X.Scale,startPos.X.Offset+dab.X,startPos.Y.Scale,
+startPos.Y.Offset+dab.Y)
+game:GetService("TweenService"):Create(_ab,TweenInfo.new(0.25),{Position=_bb}):Play()end
+_ab.InputBegan:Connect(function(cab)
+if
+
+(
+cab.UserInputType==Enum.UserInputType.MouseButton1 or cab.UserInputType==Enum.UserInputType.Touch)and d_b:GetFocusedTextBox()==nil then dragToggle=true;dragStart=cab.Position;startPos=_ab.Position
+cab.Changed:Connect(function()
+if
+cab.UserInputState==Enum.UserInputState.End then dragToggle=false end end)end end)
+_ab.InputChanged:Connect(function(cab)if
+
+cab.UserInputType==Enum.UserInputType.MouseMovement or cab.UserInputType==Enum.UserInputType.Touch then dragInput=cab end end)
+game:GetService("UserInputService").InputChanged:Connect(function(cab)
+if
+cab==dragInput and dragToggle then updateInput(cab)end end)end;dragify(c_b.Parent)end;coroutine.wrap(dda)()local function __b()
+local c_b=Instance.new('LocalScript',baa)end
+coroutine.wrap(__b)()local function a_b()local c_b=Instance.new('LocalScript',aca)
+print("Hello world!")end
+coroutine.wrap(a_b)()local function b_b()local c_b=Instance.new('LocalScript',bda)
+print("Hello world!")end
+coroutine.wrap(b_b)()
